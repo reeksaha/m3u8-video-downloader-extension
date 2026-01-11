@@ -1,0 +1,14 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <defs>
+        <linearGradient id="grad48" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <rect width="48" height="48" rx="9.600000000000001" fill="url(#grad48)"/>
+      <circle cx="24" cy="24" r="16.799999999999997" fill="rgba(255,255,255,0.3)"/>
+      <circle cx="24" cy="24" r="12" fill="rgba(255,255,255,0.5)"/>
+      <polygon points="18.240000000000002,18.240000000000002 18.240000000000002,29.759999999999998 32.64,24" fill="#667eea"/>
+    </svg>
+  
