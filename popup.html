@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>m3u8 Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="glass-container">
+    <div class="header">
+      <h1>🎬 m3u8 Downloader</h1>
+      <p class="subtitle">Advanced HLS Video Downloader</p>
+    </div>
+
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Scanning for streams...</p>
+    </div>
+
+    <div id="no-streams" class="no-streams" style="display: none;">
+      <div class="icon">📡</div>
+      <p>No m3u8 streams detected on this page.</p>
+      <p class="hint">Navigate to a page with HLS video content.</p>
+    </div>
+
+    <div id="streams-container" style="display: none;">
+      <div class="streams-header">
+        <h2>Detected Streams</h2>
+        <span id="stream-count" class="badge">0</span>
+      </div>
+      <div id="streams-list"></div>
+    </div>
+
+    <div id="active-downloads" class="active-downloads" style="display: none;">
+      <div class="section-header">
+        <h3>Active Downloads</h3>
+        <button id="view-all-btn" class="view-all-btn">View All</button>
+      </div>
+      <div id="downloads-preview"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

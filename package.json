@@ -1,0 +1,13 @@
+{
+  "name": "m3u8-video-downloader-extension",
+  "version": "1.0.0",
+  "description": "Advanced Chrome extension for downloading and converting m3u8 (HLS) video streams to MP4",
+  "keywords": [
+    "m3u8",
+    "hls",
+    "video",
+    "downloader",
+    "chrome-extension"
+  ],
+  "license": "MIT"
+}

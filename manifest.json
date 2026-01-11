@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced m3u8 Video Downloader",
+  "version": "1.0.0",
+  "description": "Download and convert m3u8 HLS streams to MP4 with quality selection and liquid glass UI",
+  "permissions": [
+    "webRequest",
+    "downloads",
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.svg",
+      "48": "icons/icon48.svg",
+      "128": "icons/icon128.svg"
+    },
+    "default_title": "m3u8 Downloader"
+  },
+  "icons": {
+    "16": "icons/icon16.svg",
+    "48": "icons/icon48.svg",
+    "128": "icons/icon128.svg"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["downloader.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
