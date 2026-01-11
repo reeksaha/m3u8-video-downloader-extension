@@ -103,4 +103,4 @@ MIT License — free to use and modify.
 
 ## ⚠️ Disclaimer
 
-This extension is for educational and personal use only. Always respect copyright laws and website terms of service. Only download content you have permission to download.
+This extension is for educational and personal use only. Always respect copyright laws and website terms of service. Only download content you have permission to download
